@@ -38,7 +38,11 @@ export default () => {
         </Tekst>
         <Tekst tekstKleur="white">Super goed</Tekst>
         <Tekst tekstKleur="white" margin="30px 0 0 0">
-          <Knop achtergrondKleur="#f39074" tekstKleur="white">
+          <Knop
+            achtergrondKleur="#f39074"
+            tekstKleur="white"
+            link="https://github.com/fabioshub"
+          >
             Github
           </Knop>
         </Tekst>
