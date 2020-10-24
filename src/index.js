@@ -1,6 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Workshop from './Workshop';
+import { Container } from "@material-ui/core";
+import React from "react";
+import ReactDOM from "react-dom";
+import Workshop from "./Workshop";
+import "./componenten/setup/defaultStyles.css";
 
 // var ajax = new XMLHttpRequest();
 // ajax.open("GET", "workshop.html", false);
@@ -10,7 +12,9 @@ import Workshop from './Workshop';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Workshop />
+    <Container>
+      <Workshop />
+    </Container>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
