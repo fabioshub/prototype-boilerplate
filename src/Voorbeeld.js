@@ -5,7 +5,7 @@ import Tekst from "./Tekst";
 import Grid from "./Grid";
 import GridVlak from "./GridVlak";
 import Sectie from "./Sectie";
-import Hero from "./Hero";
+import Banner from "./Hero";
 import Lijn from "./Lijn";
 import Kaart from "./Kaart";
 import Icoon from "./Icoon";
@@ -20,9 +20,9 @@ export default () => {
           Workshop
         </Tekst>
       </NavigatieBalk>
-      <Hero
+      <Banner
         randRadius="7px"
-        hoogte="40vh"
+        hoogte="60vh"
         padding="40px"
         achtergrondAfbeelding="https://images.unsplash.com/photo-1586944216110-a6a4a085b91e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         wisselAssen={true}
@@ -46,7 +46,7 @@ export default () => {
             Github
           </Knop>
         </Tekst>
-      </Hero>
+      </Banner>
       <Sectie>
         <Grid>
           <GridVlak
@@ -139,7 +139,7 @@ export default () => {
         randRadius="10px"
       >
         <Tekst tekstKleur="grey" tekstGrootte="13px" tekstDikte="500">
-          Trademark Setship b.v.
+          Trademark Setship vof
         </Tekst>
       </Footer>
       {/* eindig HTML */}
