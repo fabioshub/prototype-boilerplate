@@ -1,15 +1,15 @@
 import React from "react"; // Niet aanzitten
-import NavigatieBalk from "./NavigatieBalk";
-import Footer from "./Footer";
-import Tekst from "./Tekst";
-import Grid from "./Grid";
-import GridVlak from "./GridVlak";
-import Sectie from "./Sectie";
-import Banner from "./Hero";
-import Lijn from "./Lijn";
-import Kaart from "./Kaart";
-import Icoon from "./Icoon";
-import Knop, { FotoKnop } from "./Knop";
+import NavigatieBalk from "./componenten/NavigatieBalk";
+import Footer from "./componenten/Footer";
+import Tekst from "./componenten/Tekst";
+import Grid from "./componenten/Grid";
+import GridVlak from "./componenten/GridVlak";
+import Sectie from "./componenten/Sectie";
+import Banner from "./componenten/Hero";
+import Lijn from "./componenten/Lijn";
+import Kaart from "./componenten/Kaart";
+import Icoon from "./componenten/Icoon";
+import Knop, { FotoKnop } from "./componenten/Knop";
 
 export default () => {
   return (
