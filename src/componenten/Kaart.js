@@ -25,6 +25,7 @@ const useStyles = makeStyles({
  * @prop achtergrondKleur - rgb, {hex of Engelse naam}
  * @prop elevatie - nummer {0,1,2,3}
  * @prop icoon - Icoon
+ * @prop tekst
  * @prop link - href. Zonder link wordt er ook geen link knop weergegeven
  * @description hiermee roep je een kaart op.
  *

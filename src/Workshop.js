@@ -18,8 +18,11 @@ export default () => {
   return (
     <>
       {/* begin HTML  */}
+      {/* opdracht 1.A: Maak een blauwe tekst waarin je jezelf voorstelt. */}
+      {/* Begin hier met typen: */}
 
-      {/* opdracht 1: Maak een blauwe tekst waarin je jezelf voorstelt. */}
+      {/* opdracht 1.B: Geef dit een titel tekst
+        TIP: gebruik tekstDikte='1000' */}
       {/* Begin hier met typen: */}
 
       {/* opdracht 2: Gebruik een grid om 2 gekleurde vlakken 
